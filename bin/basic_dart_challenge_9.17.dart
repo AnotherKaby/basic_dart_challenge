@@ -7,6 +7,7 @@ void main(){
     answer = int.parse(stdin.readLineSync()!);
     if (answer == i + i) {
       stdout.write("Correct!\n");
+      Correct = 1;
     }
     else {
       stdout.write("Wrong.\n");
